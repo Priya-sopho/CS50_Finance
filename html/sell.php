@@ -37,6 +37,10 @@
             // Update cash
             CS50::query("UPDATE users SET cash = cash + $profit WHERE id = $id");
             
+            //Insert into history table for transaction
+            CS50::query("INSERT INTO history (user_id, symbol, status, shares, price)
+            VALUES ($id, '$stock', 'SELL', $shares, $price)");
+            
             //render display sold stock
             render("sell.php", ["title" => "Sell", "value" => $value, "profit" => $profit]);
          }

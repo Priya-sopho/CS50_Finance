@@ -4,7 +4,7 @@
     <div id="message">
        <?php 
            print("Hii! ".$cash[0]["username"].".");
-           print("\nYour current balance is ");
+           print("Your current balance is ");
            printf("%.2f",$cash[0]["cash"].".");
         ?>
     </div>

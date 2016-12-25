@@ -55,6 +55,11 @@
                 //Deduct cost from cash
                 CS50::query("UPDATE users SET cash = cash - $cost WHERE id = $id");
                 
+                //Insert in history table
+                CS50::query("INSERT INTO history (user_id, symbol, status, shares, price)
+                VALUES($id, '$symbol', 'BUY', $shares, $price)");
+
+                
                 //render buy.php to display purchase
                 render("buy.php", ["title" => "Buy", "stock" => $stock, "cost" => $cost, "shares" => $shares]);
                 

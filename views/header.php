@@ -33,19 +33,7 @@
                 <div>
                     <a href="/"><img alt="C$50 Finance" src="/img/logo.png"/></a>
                 </div>
-                <?php if (!empty($_SESSION["id"])): ?>
-                    <ul class="nav nav-pills">
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="quote.php">Quote</a></li>
-                        <li><a href="buy.php">Buy</a></li>
-                        <li><a href="sell.php">Sell</a></li>
-                        <li><a href="history.php">History</a></li>
-                        <li><a href="deposit.php">Deposit</a></li>
-                        <li><a href="withdraw.php">Withdraw</a></li>
-                        <li><a href="account.php">Account</a></li>
-                        <li><a href="logout.php"><strong>Log Out</strong></a></li>
-                    </ul>
-                <?php endif ?>
-            </div>
+                <!--The navigation bar included at top of every page-->
+                <?php require("../includes/nav.php"); ?>
 
             <div id="middle">

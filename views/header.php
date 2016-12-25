@@ -41,6 +41,7 @@
                         <li><a href="sell.php">Sell</a></li>
                         <li><a href="history.php">History</a></li>
                         <li><a href="deposit.php">Deposit</a></li>
+                        <li><a href="withdraw.php">Withdraw</a></li>
                         <li><a href="account.php">Account</a></li>
                         <li><a href="logout.php"><strong>Log Out</strong></a></li>
                     </ul>

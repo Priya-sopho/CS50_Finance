@@ -5,6 +5,10 @@
             <input autofocus class="form-control" name="stock" placeholder="Stock" type="text"/>
         </div>
         <div class="form-group">
+            <input autofocus class="form-control" name="shares" placeholder="Shares" type="text"/>
+        </div>
+
+        <div class="form-group">
             <button class="btn btn-default" type="submit">Sell</button>
         </div>
     </fieldset>

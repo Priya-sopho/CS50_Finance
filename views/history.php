@@ -8,7 +8,7 @@
            print("<th>Date/Time</th>");
            print("<th>Symbol</th>");
            print("<th>Shares</th>");
-           print("<th>Price</th>");
+           print("<th>Amount</th>");
          print("</tr>");
          
          foreach ($history as $his)

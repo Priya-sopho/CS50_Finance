@@ -45,3 +45,33 @@
     /* surround with whitespace */
     margin: 20px;
 }
+
+#message
+{
+   font-size: 20px;
+   text-align: center;
+}
+
+#overview
+{
+    border-spacing: 20px;
+    width : 90%;
+    border-collapse: seprate;
+    border: 2px solid #cc5678;
+ }
+ 
+#overview, td
+{
+   color : solid black;
+   border-bottom : 1px solid black;
+}
+
+#overview, th
+{
+  background-color : #E4E5F0;
+  border-bottom : 1px solid black;
+}  
+  
+
+        
+       

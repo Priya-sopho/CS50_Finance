@@ -1,3 +1,35 @@
+<!-- This displays current balance and shares -->
 <div>
-    <iframe allowfullscreen frameborder="0" height="315" src="https://www.youtube.com/embed/oHg5SJYRHA0?autoplay=1&iv_load_policy=3&rel=0" width="420"></iframe>
+    
+    <div id="message">
+       <?php 
+           print("Hii! ".$cash[0]["username"].".");
+           print("\nYour current balance is ");
+           printf("%.2f",$cash[0]["cash"].".");
+        ?>
+    </div>
+    
+    <table id="overview">
+      <?php
+         print("<tr>");
+           print("<th>Name</th>");
+           print("<th>Symbol</th>");
+           print("<th>Shares</th>");
+           print("<th>Price</th>");
+           print("<th>Total value</th>");
+         print("</tr>");
+         
+         foreach ($positions as $pos)
+         {
+           print("<tr>");
+              print("<td>".$pos["name"]."</td>");
+              print("<td>".$pos["symbol"]."</td>");
+              print("<td>".$pos["shares"]."</td>");
+              print("<td>".$pos["price"]."</td>");
+              print("<td>".$pos["total"]."</td>");
+           print("</tr>");
+         }
+ 
+       ?>      
+   </table>         
 </div>

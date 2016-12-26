@@ -16,6 +16,6 @@
          <strong>Cash :</strong>
      </div>
      <div class= "right_side">
-          <?php print($information[0]["cash"]) ?>
+          <?php print("$". $information[0]["cash"]) ?>
      </div><br/>
 </div>     

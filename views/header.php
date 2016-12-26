@@ -6,7 +6,7 @@
 
         <!-- http://getbootstrap.com/ -->
         <link href="/css/bootstrap.min.css" rel="stylesheet"/>
-
+        <link href="/css/bootstrap-theme.min.css" rel="stylesheet"/>
         <link href="/css/styles.css" rel="stylesheet"/>
 
         <?php if (isset($title)): ?>

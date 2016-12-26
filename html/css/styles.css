@@ -44,7 +44,59 @@
 
     /* surround with whitespace */
     margin: 20px;
+    background: #aaa;
+    color: white;
+    
 }
 
-        
-       
+#overview 
+{
+   border-spacing: 20px;
+   width : 100%;
+   border-collapse : separate;
+}
+
+#overview, td
+{
+   color : solid black;
+   border-bottom: 1px solid black;
+}
+
+#overview, th
+{
+   background-color : #E4E5F0;
+   border-bottom : 2px solid #ff0000;
+}
+
+.button
+{
+    text-align : center;
+    font-size : 15px;
+    background-color: #E4E5F0;
+    padding: 20px;
+}
+
+.button:hover
+{
+    background-color: #B3B7E3;
+ }                         
+ 
+.menu, li
+{
+      float: left;
+      width: 15%;
+      padding: 10px;
+}
+
+.menu
+{
+    width : 100%;
+    background-color: #E4E5F0;
+    height : 2%;
+    list-style : none;
+}
+
+#message
+{
+    font-size : 20px;
+}                    

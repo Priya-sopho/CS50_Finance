@@ -65,7 +65,7 @@
             
             //Insert into history table for transaction
             CS50::query("INSERT INTO history (user_id, symbol, status, shares, price)
-            VALUES ($id, '$stock', 'SELL', $shares, $price)");
+            VALUES ($id, '$stock', 'SELL', $shares, $profit)");
             
             //render display sold stock
             render("sell.php", ["title" => "Sell", "value" => $value, "profit" => $profit, "shares" => $shares]);

@@ -4,8 +4,8 @@
     <div id="message">
        <?php 
            print("Hii! ".$cash[0]["username"].".");
-           print("Your current balance is ");
-           printf("%.2f",$cash[0]["cash"].".");
+           print("Your current balance is $".sprintf("%.2f",$cash[0]["cash"]));
+           print("<br>"."Your shares: ");
         ?>
     </div>
     
@@ -25,8 +25,8 @@
               print("<td>".$pos["name"]."</td>");
               print("<td>".$pos["symbol"]."</td>");
               print("<td>".$pos["shares"]."</td>");
-              print("<td>".$pos["price"]."</td>");
-              print("<td>".$pos["total"]."</td>");
+              print("<td>"."$".$pos["price"]."</td>");
+              print("<td>"."$".$pos["total"]."</td>");
            print("</tr>");
          }
  

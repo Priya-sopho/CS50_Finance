@@ -7,5 +7,5 @@
   print("<br>");
   print("Name : ". $_POST["name"]);
   print("<br>");
-  print("Price : ".number_format($_POST["price"],3));
+  print("Price : $".number_format($_POST["price"],3));
  ?>

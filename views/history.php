@@ -18,7 +18,7 @@
               print("<td>".$his["date"]."</td>");
               print("<td>".$his["symbol"]."</td>");
               print("<td>".$his["shares"]."</td>");
-              print("<td>".sprintf("%.2f",$his["price"])."</td>");
+              print("<td>"."$".sprintf("%.2f",$his["price"])."</td>");
            print("</tr>");
          }
  
